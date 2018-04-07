@@ -24,7 +24,8 @@ function dataHandling2(a){
     case 12: bulan = 'desember'; break;
     default : bulan = 'tanggal tidak tersedia'; break;
   }
-  
+ 
+  //merubah tipe data strng ke number dilakukan didalam function
   tgl = tgl.sort(function(value1, value2) { return Number(value1) < Number(value2) })
   
   console.log(a);
